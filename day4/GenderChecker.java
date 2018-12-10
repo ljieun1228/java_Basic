@@ -1,10 +1,10 @@
-package day8;
+package day4;
 
 import java.util.Scanner;
 
-public class GenderCheker{
+public class GenderChecker {
 
-	public void gender() {
+	public static void main(String[] args) {
 		System.out.println("~성별판별기~\n"
 				+ "이름과 주민번호를 입력하세요.");
 		Scanner scan = new Scanner(System.in);
@@ -18,6 +18,7 @@ public class GenderCheker{
 			System.out.print("외국인이요.");
 		}else {
 			System.out.print( "다시 입력하세요.");
-		}
-	}
+		}   
+	}	    
 }
+

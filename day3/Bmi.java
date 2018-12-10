@@ -1,9 +1,10 @@
-package day8;
+package day3;
 
 import java.util.Scanner;
 
 public class Bmi {
-	public void bmi() {
+
+	public static void main(String[] args) {
 		System.out.println("~체질량지수~\n"
 				+ "키, 몸무게를 입력하세요.");
 		Scanner scan = new Scanner(System.in);

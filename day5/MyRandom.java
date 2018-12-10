@@ -1,10 +1,10 @@
-package day6;
+package day5;
 
-public class Test {
+public class MyRandom {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("테스트");
+
 	}
 
 }

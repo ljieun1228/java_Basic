@@ -20,19 +20,21 @@ public class Main{
 				break;
 			case"2" :
 				Bmi bmi =new Bmi();
-				bmi.Bmi();
+				bmi.bmi();
 				break;
 			case"3" :
-				MyCalendar calendar = new MyCalendar();
+				//MyCalendar calendar = new MyCalendar();
+				//calendar.mycalender();
 				break;
 			case"4" :
 				GenderCheker cheker = new GenderCheker();
+				cheker.gender();
 				break;
 			case"5" : 
 				Grade grade = new Grade();
+				grade.grade();
 				break;
-			default : 
-			
+			default : 	
 				break;
 			}
 		}
