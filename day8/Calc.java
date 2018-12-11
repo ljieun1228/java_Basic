@@ -3,7 +3,7 @@ package day8;
 import java.util.Scanner;
 
 public class Calc {
-	public void Calc() {
+	public void calc() {
 		System.out.println("계산기");
 		Scanner scanner = new Scanner(System.in);
 		int a = scanner.nextInt();
